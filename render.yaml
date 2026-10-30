@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: synle
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 22.23.1
+      - key: NODE_ENV
+        value: production
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: DATABASE_URL
+        fromDatabase:
+          name: synle-feedback
+          property: connectionString
+
+databases:
+  - name: synle-feedback
+    plan: free
+    region: singapore
+    databaseName: synle
+    user: synle
+    ipAllowList: []

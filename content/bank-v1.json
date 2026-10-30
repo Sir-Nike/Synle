@@ -1,0 +1,3990 @@
+{
+  "version": "v1",
+  "prompts": [
+    {
+      "id": "bright",
+      "word": "bright",
+      "meanings": [
+        {
+          "id": "bright-0",
+          "label": "Intelligent or quick to understand"
+        },
+        {
+          "id": "bright-1",
+          "label": "Giving off or reflecting light"
+        },
+        {
+          "id": "bright-2",
+          "label": "Vivid in colour"
+        },
+        {
+          "id": "bright-3",
+          "label": "Cheerful and optimistic"
+        }
+      ],
+      "answers": [
+        {
+          "id": "bright:clever",
+          "text": "clever",
+          "aliases": [],
+          "meaning": "bright-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/clever"
+          ],
+          "frequency": 4.21,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:smart",
+          "text": "smart",
+          "aliases": [],
+          "meaning": "bright-0",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense bright.s.02"
+          ],
+          "frequency": 4.83,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "bright:intelligent",
+          "text": "intelligent",
+          "aliases": [],
+          "meaning": "bright-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/intelligent"
+          ],
+          "frequency": 4.29,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:astute",
+          "text": "astute",
+          "aliases": [],
+          "meaning": "bright-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/astute"
+          ],
+          "frequency": 3.1,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:brainy",
+          "text": "brainy",
+          "aliases": [],
+          "meaning": "bright-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/brainy"
+          ],
+          "frequency": 2.62,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:brilliant",
+          "text": "brilliant",
+          "aliases": [],
+          "meaning": "bright-0",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense bright.s.01",
+            "https://wordnet.princeton.edu/ — sense bright.s.06"
+          ],
+          "frequency": 4.55,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "bright:sharp",
+          "text": "sharp",
+          "aliases": [],
+          "meaning": "bright-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/sharp"
+          ],
+          "frequency": 4.48,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:quick-witted",
+          "text": "quick-witted",
+          "aliases": [],
+          "meaning": "bright-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/quick-witted"
+          ],
+          "frequency": 2.86,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:perceptive",
+          "text": "perceptive",
+          "aliases": [],
+          "meaning": "bright-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/perceptive"
+          ],
+          "frequency": 2.99,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:shrewd",
+          "text": "shrewd",
+          "aliases": [],
+          "meaning": "bright-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/shrewd"
+          ],
+          "frequency": 3.11,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:radiant",
+          "text": "radiant",
+          "aliases": [],
+          "meaning": "bright-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/radiant"
+          ],
+          "frequency": 3.49,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:luminous",
+          "text": "luminous",
+          "aliases": [],
+          "meaning": "bright-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/luminous"
+          ],
+          "frequency": 3.24,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:shining",
+          "text": "shining",
+          "aliases": [],
+          "meaning": "bright-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense bright.s.04"
+          ],
+          "frequency": 3.98,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "bright:gleaming",
+          "text": "gleaming",
+          "aliases": [],
+          "meaning": "bright-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/gleaming"
+          ],
+          "frequency": 3.1,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:glowing",
+          "text": "glowing",
+          "aliases": [],
+          "meaning": "bright-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/glowing"
+          ],
+          "frequency": 3.75,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:dazzling",
+          "text": "dazzling",
+          "aliases": [],
+          "meaning": "bright-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/dazzling"
+          ],
+          "frequency": 3.39,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:lustrous",
+          "text": "lustrous",
+          "aliases": [],
+          "meaning": "bright-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense bright.s.04"
+          ],
+          "frequency": 2.66,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "bright:resplendent",
+          "text": "resplendent",
+          "aliases": [],
+          "meaning": "bright-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/resplendent"
+          ],
+          "frequency": 2.67,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:effulgent",
+          "text": "effulgent",
+          "aliases": [],
+          "meaning": "bright-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/effulgent"
+          ],
+          "frequency": 1.56,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:shiny",
+          "text": "shiny",
+          "aliases": [],
+          "meaning": "bright-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense bright.s.04"
+          ],
+          "frequency": 3.88,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "bright:glittering",
+          "text": "glittering",
+          "aliases": [],
+          "meaning": "bright-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/glittering"
+          ],
+          "frequency": 3.19,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:shimmering",
+          "text": "shimmering",
+          "aliases": [],
+          "meaning": "bright-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/shimmering"
+          ],
+          "frequency": 2.97,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:illuminated",
+          "text": "illuminated",
+          "aliases": [],
+          "meaning": "bright-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/illuminated"
+          ],
+          "frequency": 3.5,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:light",
+          "text": "light",
+          "aliases": [],
+          "meaning": "bright-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/light"
+          ],
+          "frequency": 5.33,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:well-lit",
+          "text": "well-lit",
+          "aliases": [],
+          "meaning": "bright-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/well-lit"
+          ],
+          "frequency": 4.18,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:vivid",
+          "text": "vivid",
+          "aliases": [],
+          "meaning": "bright-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense bright.s.01"
+          ],
+          "frequency": 3.75,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "bright:vibrant",
+          "text": "vibrant",
+          "aliases": [],
+          "meaning": "bright-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/vibrant"
+          ],
+          "frequency": 3.67,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:colourful",
+          "text": "colourful",
+          "aliases": [
+            "colorful"
+          ],
+          "meaning": "bright-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/colourful"
+          ],
+          "frequency": 3.55,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:intense",
+          "text": "intense",
+          "aliases": [],
+          "meaning": "bright-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/intense"
+          ],
+          "frequency": 4.39,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:cheerful",
+          "text": "cheerful",
+          "aliases": [],
+          "meaning": "bright-3",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/cheerful"
+          ],
+          "frequency": 3.6,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:sunny",
+          "text": "sunny",
+          "aliases": [],
+          "meaning": "bright-3",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/sunny"
+          ],
+          "frequency": 4.07,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:buoyant",
+          "text": "buoyant",
+          "aliases": [],
+          "meaning": "bright-3",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/buoyant"
+          ],
+          "frequency": 2.98,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:upbeat",
+          "text": "upbeat",
+          "aliases": [],
+          "meaning": "bright-3",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/upbeat"
+          ],
+          "frequency": 3.53,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:hopeful",
+          "text": "hopeful",
+          "aliases": [],
+          "meaning": "bright-3",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense bright.s.08"
+          ],
+          "frequency": 3.79,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "bright:optimistic",
+          "text": "optimistic",
+          "aliases": [],
+          "meaning": "bright-3",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/optimistic"
+          ],
+          "frequency": 3.87,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:happy",
+          "text": "happy",
+          "aliases": [],
+          "meaning": "bright-3",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/happy"
+          ],
+          "frequency": 5.35,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bright:merry",
+          "text": "merry",
+          "aliases": [],
+          "meaning": "bright-3",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bright",
+            "https://dictionary.cambridge.org/dictionary/english/merry"
+          ],
+          "frequency": 3.83,
+          "review": "Editorial semantic match; dictionary links for verification"
+        }
+      ]
+    },
+    {
+      "id": "light",
+      "word": "light",
+      "meanings": [
+        {
+          "id": "light-0",
+          "label": "Not heavy"
+        },
+        {
+          "id": "light-1",
+          "label": "Illumination"
+        },
+        {
+          "id": "light-2",
+          "label": "Pale in colour"
+        },
+        {
+          "id": "light-3",
+          "label": "Full of illumination"
+        },
+        {
+          "id": "light-4",
+          "label": "Gentle or low in intensity"
+        },
+        {
+          "id": "light-5",
+          "label": "To set burning"
+        }
+      ],
+      "answers": [
+        {
+          "id": "light:lightweight",
+          "text": "lightweight",
+          "aliases": [
+            "light weight"
+          ],
+          "meaning": "light-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/lightweight"
+          ],
+          "frequency": 3.78,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:weightless",
+          "text": "weightless",
+          "aliases": [],
+          "meaning": "light-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/weightless"
+          ],
+          "frequency": 2.65,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:feathery",
+          "text": "feathery",
+          "aliases": [],
+          "meaning": "light-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/feathery"
+          ],
+          "frequency": 2.49,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:airy",
+          "text": "airy",
+          "aliases": [],
+          "meaning": "light-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/airy"
+          ],
+          "frequency": 3.2,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:featherlight",
+          "text": "featherlight",
+          "aliases": [],
+          "meaning": "light-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/featherlight"
+          ],
+          "frequency": 1.37,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:light-as-a-feather",
+          "text": "light as a feather",
+          "aliases": [],
+          "meaning": "light-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/light-as-a-feather"
+          ],
+          "frequency": null,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:illumination",
+          "text": "illumination",
+          "aliases": [],
+          "meaning": "light-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense light.n.06"
+          ],
+          "frequency": 3.35,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "light:radiance",
+          "text": "radiance",
+          "aliases": [],
+          "meaning": "light-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/radiance"
+          ],
+          "frequency": 3.04,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:luminescence",
+          "text": "luminescence",
+          "aliases": [],
+          "meaning": "light-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/luminescence"
+          ],
+          "frequency": 2.51,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:glow",
+          "text": "glow",
+          "aliases": [],
+          "meaning": "light-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/glow"
+          ],
+          "frequency": 3.91,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:brightness",
+          "text": "brightness",
+          "aliases": [],
+          "meaning": "light-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense luminosity.n.01"
+          ],
+          "frequency": 3.57,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "light:luminosity",
+          "text": "luminosity",
+          "aliases": [],
+          "meaning": "light-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense luminosity.n.01"
+          ],
+          "frequency": 2.9,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "light:pale",
+          "text": "pale",
+          "aliases": [],
+          "meaning": "light-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/pale"
+          ],
+          "frequency": 4.08,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:fair",
+          "text": "fair",
+          "aliases": [],
+          "meaning": "light-2",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/fair"
+          ],
+          "frequency": 4.99,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:pastel",
+          "text": "pastel",
+          "aliases": [],
+          "meaning": "light-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/pastel"
+          ],
+          "frequency": 3.25,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:faint",
+          "text": "faint",
+          "aliases": [],
+          "meaning": "light-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense faint.s.04"
+          ],
+          "frequency": 3.78,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "light:bright",
+          "text": "bright",
+          "aliases": [],
+          "meaning": "light-3",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/bright"
+          ],
+          "frequency": 4.61,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:illuminated",
+          "text": "illuminated",
+          "aliases": [],
+          "meaning": "light-3",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/illuminated"
+          ],
+          "frequency": 3.5,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:well-lit",
+          "text": "well-lit",
+          "aliases": [],
+          "meaning": "light-3",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/well-lit"
+          ],
+          "frequency": 4.18,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:gentle",
+          "text": "gentle",
+          "aliases": [],
+          "meaning": "light-4",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/gentle"
+          ],
+          "frequency": 4.17,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:mild",
+          "text": "mild",
+          "aliases": [],
+          "meaning": "light-4",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/mild"
+          ],
+          "frequency": 4.11,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:delicate",
+          "text": "delicate",
+          "aliases": [],
+          "meaning": "light-4",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/delicate"
+          ],
+          "frequency": 4.01,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:slight",
+          "text": "slight",
+          "aliases": [],
+          "meaning": "light-4",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/slight"
+          ],
+          "frequency": 4.22,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:ignite",
+          "text": "ignite",
+          "aliases": [],
+          "meaning": "light-5",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense ignite.v.01"
+          ],
+          "frequency": 3.35,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "light:kindle",
+          "text": "kindle",
+          "aliases": [],
+          "meaning": "light-5",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/kindle"
+          ],
+          "frequency": 3.81,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:set-alight",
+          "text": "set alight",
+          "aliases": [],
+          "meaning": "light-5",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/set-alight"
+          ],
+          "frequency": null,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "light:set-fire-to",
+          "text": "set fire to",
+          "aliases": [],
+          "meaning": "light-5",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/light",
+            "https://dictionary.cambridge.org/dictionary/english/set-fire-to"
+          ],
+          "frequency": null,
+          "review": "Editorial semantic match; dictionary links for verification"
+        }
+      ]
+    },
+    {
+      "id": "calm",
+      "word": "calm",
+      "meanings": [
+        {
+          "id": "calm-0",
+          "label": "Peaceful and undisturbed"
+        },
+        {
+          "id": "calm-1",
+          "label": "Composed and free from agitation"
+        },
+        {
+          "id": "calm-2",
+          "label": "To make less agitated"
+        }
+      ],
+      "answers": [
+        {
+          "id": "calm:peaceful",
+          "text": "peaceful",
+          "aliases": [],
+          "meaning": "calm-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/peaceful"
+          ],
+          "frequency": 4.28,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:tranquil",
+          "text": "tranquil",
+          "aliases": [],
+          "meaning": "calm-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense calm.s.01"
+          ],
+          "frequency": 3.14,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "calm:serene",
+          "text": "serene",
+          "aliases": [],
+          "meaning": "calm-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense calm.s.01"
+          ],
+          "frequency": 3.27,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "calm:still",
+          "text": "still",
+          "aliases": [],
+          "meaning": "calm-0",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense calm.v.01"
+          ],
+          "frequency": 5.92,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "calm:quiet",
+          "text": "quiet",
+          "aliases": [],
+          "meaning": "calm-0",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense calm.v.01"
+          ],
+          "frequency": 4.65,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "calm:placid",
+          "text": "placid",
+          "aliases": [],
+          "meaning": "calm-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/placid"
+          ],
+          "frequency": 3.01,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:unruffled",
+          "text": "unruffled",
+          "aliases": [],
+          "meaning": "calm-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/unruffled"
+          ],
+          "frequency": 2.08,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:halcyon",
+          "text": "halcyon",
+          "aliases": [],
+          "meaning": "calm-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/halcyon"
+          ],
+          "frequency": 2.65,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:composed",
+          "text": "composed",
+          "aliases": [],
+          "meaning": "calm-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/composed"
+          ],
+          "frequency": 4.27,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:collected",
+          "text": "collected",
+          "aliases": [],
+          "meaning": "calm-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/collected"
+          ],
+          "frequency": 4.63,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:relaxed",
+          "text": "relaxed",
+          "aliases": [],
+          "meaning": "calm-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/relaxed"
+          ],
+          "frequency": 4.01,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:unflustered",
+          "text": "unflustered",
+          "aliases": [],
+          "meaning": "calm-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/unflustered"
+          ],
+          "frequency": 1.01,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:equanimous",
+          "text": "equanimous",
+          "aliases": [],
+          "meaning": "calm-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/equanimous"
+          ],
+          "frequency": 1.07,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:cool-headed",
+          "text": "cool-headed",
+          "aliases": [],
+          "meaning": "calm-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/cool-headed"
+          ],
+          "frequency": 4.45,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:cool",
+          "text": "cool",
+          "aliases": [],
+          "meaning": "calm-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/cool"
+          ],
+          "frequency": 5.15,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:level-headed",
+          "text": "level-headed",
+          "aliases": [],
+          "meaning": "calm-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/level-headed"
+          ],
+          "frequency": 4.49,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:self-possessed",
+          "text": "self-possessed",
+          "aliases": [],
+          "meaning": "calm-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/self-possessed"
+          ],
+          "frequency": 3.83,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:at-ease",
+          "text": "at ease",
+          "aliases": [
+            "being at ease"
+          ],
+          "meaning": "calm-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/at-ease"
+          ],
+          "frequency": null,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:cool-as-a-cucumber",
+          "text": "cool as a cucumber",
+          "aliases": [
+            "as cool as a cucumber"
+          ],
+          "meaning": "calm-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/cool-as-a-cucumber"
+          ],
+          "frequency": null,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:soothe",
+          "text": "soothe",
+          "aliases": [],
+          "meaning": "calm-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/soothe"
+          ],
+          "frequency": 3.18,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:settle",
+          "text": "settle",
+          "aliases": [],
+          "meaning": "calm-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/settle"
+          ],
+          "frequency": 4.37,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:pacify",
+          "text": "pacify",
+          "aliases": [],
+          "meaning": "calm-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/pacify"
+          ],
+          "frequency": 2.73,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:reassure",
+          "text": "reassure",
+          "aliases": [],
+          "meaning": "calm-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/reassure"
+          ],
+          "frequency": 3.3,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:mollify",
+          "text": "mollify",
+          "aliases": [],
+          "meaning": "calm-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/mollify"
+          ],
+          "frequency": 2.04,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "calm:appease",
+          "text": "appease",
+          "aliases": [],
+          "meaning": "calm-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/calm",
+            "https://dictionary.cambridge.org/dictionary/english/appease"
+          ],
+          "frequency": 3.2,
+          "review": "Editorial semantic match; dictionary links for verification"
+        }
+      ]
+    },
+    {
+      "id": "sharp",
+      "word": "sharp",
+      "meanings": [
+        {
+          "id": "sharp-0",
+          "label": "Having a fine cutting edge or point"
+        },
+        {
+          "id": "sharp-1",
+          "label": "Quick to understand or notice"
+        },
+        {
+          "id": "sharp-2",
+          "label": "Sudden and substantial"
+        },
+        {
+          "id": "sharp-3",
+          "label": "Harsh or biting in manner"
+        }
+      ],
+      "answers": [
+        {
+          "id": "sharp:keen",
+          "text": "keen",
+          "aliases": [],
+          "meaning": "sharp-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense acute.s.02"
+          ],
+          "frequency": 4.13,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "sharp:pointed",
+          "text": "pointed",
+          "aliases": [],
+          "meaning": "sharp-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/sharp",
+            "https://dictionary.cambridge.org/dictionary/english/pointed"
+          ],
+          "frequency": 4.46,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "sharp:razor-sharp",
+          "text": "razor-sharp",
+          "aliases": [],
+          "meaning": "sharp-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/sharp",
+            "https://dictionary.cambridge.org/dictionary/english/razor-sharp"
+          ],
+          "frequency": 3.65,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "sharp:acute",
+          "text": "acute",
+          "aliases": [],
+          "meaning": "sharp-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense acuate.s.01",
+            "https://wordnet.princeton.edu/ — sense acute.s.02"
+          ],
+          "frequency": 4.0,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "sharp:astute",
+          "text": "astute",
+          "aliases": [],
+          "meaning": "sharp-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense astute.s.01"
+          ],
+          "frequency": 3.1,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "sharp:perceptive",
+          "text": "perceptive",
+          "aliases": [],
+          "meaning": "sharp-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/sharp",
+            "https://dictionary.cambridge.org/dictionary/english/perceptive"
+          ],
+          "frequency": 2.99,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "sharp:shrewd",
+          "text": "shrewd",
+          "aliases": [],
+          "meaning": "sharp-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense astute.s.01"
+          ],
+          "frequency": 3.11,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "sharp:clever",
+          "text": "clever",
+          "aliases": [],
+          "meaning": "sharp-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/sharp",
+            "https://dictionary.cambridge.org/dictionary/english/clever"
+          ],
+          "frequency": 4.21,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "sharp:intelligent",
+          "text": "intelligent",
+          "aliases": [],
+          "meaning": "sharp-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/sharp",
+            "https://dictionary.cambridge.org/dictionary/english/intelligent"
+          ],
+          "frequency": 4.29,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "sharp:observant",
+          "text": "observant",
+          "aliases": [],
+          "meaning": "sharp-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/sharp",
+            "https://dictionary.cambridge.org/dictionary/english/observant"
+          ],
+          "frequency": 3.05,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "sharp:quick-witted",
+          "text": "quick-witted",
+          "aliases": [],
+          "meaning": "sharp-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/sharp",
+            "https://dictionary.cambridge.org/dictionary/english/quick-witted"
+          ],
+          "frequency": 2.86,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "sharp:abrupt",
+          "text": "abrupt",
+          "aliases": [],
+          "meaning": "sharp-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense abrupt.s.03"
+          ],
+          "frequency": 3.38,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "sharp:sudden",
+          "text": "sudden",
+          "aliases": [],
+          "meaning": "sharp-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/sharp",
+            "https://dictionary.cambridge.org/dictionary/english/sudden"
+          ],
+          "frequency": 4.4,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "sharp:steep",
+          "text": "steep",
+          "aliases": [],
+          "meaning": "sharp-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/sharp",
+            "https://dictionary.cambridge.org/dictionary/english/steep"
+          ],
+          "frequency": 3.99,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "sharp:drastic",
+          "text": "drastic",
+          "aliases": [],
+          "meaning": "sharp-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/sharp",
+            "https://dictionary.cambridge.org/dictionary/english/drastic"
+          ],
+          "frequency": 3.63,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "sharp:precipitous",
+          "text": "precipitous",
+          "aliases": [],
+          "meaning": "sharp-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense abrupt.s.03"
+          ],
+          "frequency": 2.58,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "sharp:curt",
+          "text": "curt",
+          "aliases": [],
+          "meaning": "sharp-3",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/sharp",
+            "https://dictionary.cambridge.org/dictionary/english/curt"
+          ],
+          "frequency": 3.16,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "sharp:acerbic",
+          "text": "acerbic",
+          "aliases": [],
+          "meaning": "sharp-3",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/sharp",
+            "https://dictionary.cambridge.org/dictionary/english/acerbic"
+          ],
+          "frequency": 2.31,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "sharp:cutting",
+          "text": "cutting",
+          "aliases": [],
+          "meaning": "sharp-3",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/sharp",
+            "https://dictionary.cambridge.org/dictionary/english/cutting"
+          ],
+          "frequency": 4.61,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "sharp:caustic",
+          "text": "caustic",
+          "aliases": [],
+          "meaning": "sharp-3",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/sharp",
+            "https://dictionary.cambridge.org/dictionary/english/caustic"
+          ],
+          "frequency": 2.97,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "sharp:biting",
+          "text": "biting",
+          "aliases": [],
+          "meaning": "sharp-3",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/sharp",
+            "https://dictionary.cambridge.org/dictionary/english/biting"
+          ],
+          "frequency": 3.77,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "sharp:tart",
+          "text": "tart",
+          "aliases": [],
+          "meaning": "sharp-3",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense sharp.s.05"
+          ],
+          "frequency": 3.37,
+          "review": "WordNet shared-sense candidate"
+        }
+      ]
+    },
+    {
+      "id": "warm",
+      "word": "warm",
+      "meanings": [
+        {
+          "id": "warm-0",
+          "label": "Moderately hot"
+        },
+        {
+          "id": "warm-1",
+          "label": "Friendly and affectionate"
+        },
+        {
+          "id": "warm-2",
+          "label": "To make warmer"
+        }
+      ],
+      "answers": [
+        {
+          "id": "warm:mild",
+          "text": "mild",
+          "aliases": [],
+          "meaning": "warm-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/warm",
+            "https://dictionary.cambridge.org/dictionary/english/mild"
+          ],
+          "frequency": 4.11,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "warm:balmy",
+          "text": "balmy",
+          "aliases": [],
+          "meaning": "warm-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/warm",
+            "https://dictionary.cambridge.org/dictionary/english/balmy"
+          ],
+          "frequency": 2.7,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "warm:tepid",
+          "text": "tepid",
+          "aliases": [],
+          "meaning": "warm-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/warm",
+            "https://dictionary.cambridge.org/dictionary/english/tepid"
+          ],
+          "frequency": 2.71,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "warm:lukewarm",
+          "text": "lukewarm",
+          "aliases": [],
+          "meaning": "warm-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/warm",
+            "https://dictionary.cambridge.org/dictionary/english/lukewarm"
+          ],
+          "frequency": 3.09,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "warm:toasty",
+          "text": "toasty",
+          "aliases": [],
+          "meaning": "warm-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/warm",
+            "https://dictionary.cambridge.org/dictionary/english/toasty"
+          ],
+          "frequency": 2.72,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "warm:friendly",
+          "text": "friendly",
+          "aliases": [],
+          "meaning": "warm-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/warm",
+            "https://dictionary.cambridge.org/dictionary/english/friendly"
+          ],
+          "frequency": 4.64,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "warm:affectionate",
+          "text": "affectionate",
+          "aliases": [],
+          "meaning": "warm-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense affectionate.s.01"
+          ],
+          "frequency": 3.35,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "warm:cordial",
+          "text": "cordial",
+          "aliases": [],
+          "meaning": "warm-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/warm",
+            "https://dictionary.cambridge.org/dictionary/english/cordial"
+          ],
+          "frequency": 3.1,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "warm:welcoming",
+          "text": "welcoming",
+          "aliases": [],
+          "meaning": "warm-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/warm",
+            "https://dictionary.cambridge.org/dictionary/english/welcoming"
+          ],
+          "frequency": 3.77,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "warm:genial",
+          "text": "genial",
+          "aliases": [],
+          "meaning": "warm-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/warm",
+            "https://dictionary.cambridge.org/dictionary/english/genial"
+          ],
+          "frequency": 2.72,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "warm:amiable",
+          "text": "amiable",
+          "aliases": [],
+          "meaning": "warm-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/warm",
+            "https://dictionary.cambridge.org/dictionary/english/amiable"
+          ],
+          "frequency": 2.84,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "warm:hearty",
+          "text": "hearty",
+          "aliases": [],
+          "meaning": "warm-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/warm",
+            "https://dictionary.cambridge.org/dictionary/english/hearty"
+          ],
+          "frequency": 3.38,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "warm:kind-hearted",
+          "text": "kind-hearted",
+          "aliases": [],
+          "meaning": "warm-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/warm",
+            "https://dictionary.cambridge.org/dictionary/english/kind-hearted"
+          ],
+          "frequency": 3.76,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "warm:heat",
+          "text": "heat",
+          "aliases": [],
+          "meaning": "warm-2",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/warm",
+            "https://dictionary.cambridge.org/dictionary/english/heat"
+          ],
+          "frequency": 4.86,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "warm:reheat",
+          "text": "reheat",
+          "aliases": [],
+          "meaning": "warm-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/warm",
+            "https://dictionary.cambridge.org/dictionary/english/reheat"
+          ],
+          "frequency": 2.6,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "warm:warm-up",
+          "text": "warm up",
+          "aliases": [],
+          "meaning": "warm-2",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense warm.v.01"
+          ],
+          "frequency": null,
+          "review": "WordNet shared-sense candidate"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "word": "cold",
+      "meanings": [
+        {
+          "id": "cold-0",
+          "label": "At a low temperature"
+        },
+        {
+          "id": "cold-1",
+          "label": "Unfriendly or lacking affection"
+        },
+        {
+          "id": "cold-2",
+          "label": "Without emotion or pity"
+        }
+      ],
+      "answers": [
+        {
+          "id": "cold:chilly",
+          "text": "chilly",
+          "aliases": [],
+          "meaning": "cold-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/chilly"
+          ],
+          "frequency": 3.5,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:cool",
+          "text": "cool",
+          "aliases": [],
+          "meaning": "cold-0",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/cool"
+          ],
+          "frequency": 5.15,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:frigid",
+          "text": "frigid",
+          "aliases": [],
+          "meaning": "cold-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense cold.s.06"
+          ],
+          "frequency": 2.98,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "cold:icy",
+          "text": "icy",
+          "aliases": [],
+          "meaning": "cold-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/icy"
+          ],
+          "frequency": 3.54,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:freezing",
+          "text": "freezing",
+          "aliases": [],
+          "meaning": "cold-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/freezing"
+          ],
+          "frequency": 4.05,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:frosty",
+          "text": "frosty",
+          "aliases": [],
+          "meaning": "cold-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/frosty"
+          ],
+          "frequency": 3.2,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:gelid",
+          "text": "gelid",
+          "aliases": [],
+          "meaning": "cold-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/gelid"
+          ],
+          "frequency": 1.31,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:nippy",
+          "text": "nippy",
+          "aliases": [],
+          "meaning": "cold-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/nippy"
+          ],
+          "frequency": 2.38,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:baltic",
+          "text": "baltic",
+          "aliases": [],
+          "meaning": "cold-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/baltic"
+          ],
+          "frequency": 3.57,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:aloof",
+          "text": "aloof",
+          "aliases": [],
+          "meaning": "cold-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/aloof"
+          ],
+          "frequency": 2.99,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:distant",
+          "text": "distant",
+          "aliases": [],
+          "meaning": "cold-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/distant"
+          ],
+          "frequency": 4.19,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:unfriendly",
+          "text": "unfriendly",
+          "aliases": [],
+          "meaning": "cold-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/unfriendly"
+          ],
+          "frequency": 3.1,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:unfeeling",
+          "text": "unfeeling",
+          "aliases": [],
+          "meaning": "cold-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/unfeeling"
+          ],
+          "frequency": 2.4,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:detached",
+          "text": "detached",
+          "aliases": [],
+          "meaning": "cold-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/detached"
+          ],
+          "frequency": 3.79,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:impersonal",
+          "text": "impersonal",
+          "aliases": [],
+          "meaning": "cold-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/impersonal"
+          ],
+          "frequency": 2.92,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:standoffish",
+          "text": "standoffish",
+          "aliases": [],
+          "meaning": "cold-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/standoffish"
+          ],
+          "frequency": 2.09,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:dispassionate",
+          "text": "dispassionate",
+          "aliases": [],
+          "meaning": "cold-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/dispassionate"
+          ],
+          "frequency": 2.53,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:emotionless",
+          "text": "emotionless",
+          "aliases": [],
+          "meaning": "cold-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/emotionless"
+          ],
+          "frequency": 2.72,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:heartless",
+          "text": "heartless",
+          "aliases": [],
+          "meaning": "cold-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/heartless"
+          ],
+          "frequency": 3.33,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:unemotional",
+          "text": "unemotional",
+          "aliases": [],
+          "meaning": "cold-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/unemotional"
+          ],
+          "frequency": 2.33,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "cold:callous",
+          "text": "callous",
+          "aliases": [],
+          "meaning": "cold-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/cold",
+            "https://dictionary.cambridge.org/dictionary/english/callous"
+          ],
+          "frequency": 3.07,
+          "review": "Editorial semantic match; dictionary links for verification"
+        }
+      ]
+    },
+    {
+      "id": "strong",
+      "word": "strong",
+      "meanings": [
+        {
+          "id": "strong-0",
+          "label": "Having physical power or strength"
+        },
+        {
+          "id": "strong-1",
+          "label": "Able to withstand force or difficulty"
+        },
+        {
+          "id": "strong-2",
+          "label": "Intense or potent"
+        }
+      ],
+      "answers": [
+        {
+          "id": "strong:powerful",
+          "text": "powerful",
+          "aliases": [],
+          "meaning": "strong-0",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/powerful"
+          ],
+          "frequency": 4.85,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "strong:mighty",
+          "text": "mighty",
+          "aliases": [],
+          "meaning": "strong-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/mighty"
+          ],
+          "frequency": 4.1,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "strong:muscular",
+          "text": "muscular",
+          "aliases": [],
+          "meaning": "strong-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/muscular"
+          ],
+          "frequency": 3.67,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "strong:brawny",
+          "text": "brawny",
+          "aliases": [],
+          "meaning": "strong-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/brawny"
+          ],
+          "frequency": 2.34,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "strong:robust",
+          "text": "robust",
+          "aliases": [],
+          "meaning": "strong-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/robust"
+          ],
+          "frequency": 3.94,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "strong:strapping",
+          "text": "strapping",
+          "aliases": [],
+          "meaning": "strong-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/strapping"
+          ],
+          "frequency": 2.89,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "strong:herculean",
+          "text": "herculean",
+          "aliases": [],
+          "meaning": "strong-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/herculean"
+          ],
+          "frequency": 2.52,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "strong:sturdy",
+          "text": "sturdy",
+          "aliases": [],
+          "meaning": "strong-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/sturdy"
+          ],
+          "frequency": 3.44,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "strong:tough",
+          "text": "tough",
+          "aliases": [],
+          "meaning": "strong-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/tough"
+          ],
+          "frequency": 4.77,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "strong:resilient",
+          "text": "resilient",
+          "aliases": [],
+          "meaning": "strong-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/resilient"
+          ],
+          "frequency": 3.5,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "strong:durable",
+          "text": "durable",
+          "aliases": [],
+          "meaning": "strong-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/durable"
+          ],
+          "frequency": 3.68,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "strong:solid",
+          "text": "solid",
+          "aliases": [],
+          "meaning": "strong-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense solid.s.05"
+          ],
+          "frequency": 4.73,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "strong:hardy",
+          "text": "hardy",
+          "aliases": [],
+          "meaning": "strong-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/hardy"
+          ],
+          "frequency": 3.86,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "strong:steadfast",
+          "text": "steadfast",
+          "aliases": [],
+          "meaning": "strong-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/steadfast"
+          ],
+          "frequency": 3.14,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "strong:tenacious",
+          "text": "tenacious",
+          "aliases": [],
+          "meaning": "strong-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/tenacious"
+          ],
+          "frequency": 3.04,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "strong:intense",
+          "text": "intense",
+          "aliases": [],
+          "meaning": "strong-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/intense"
+          ],
+          "frequency": 4.39,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "strong:potent",
+          "text": "potent",
+          "aliases": [],
+          "meaning": "strong-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense potent.s.02",
+            "https://wordnet.princeton.edu/ — sense potent.a.03"
+          ],
+          "frequency": 3.74,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "strong:concentrated",
+          "text": "concentrated",
+          "aliases": [],
+          "meaning": "strong-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/concentrated"
+          ],
+          "frequency": 3.96,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "strong:pungent",
+          "text": "pungent",
+          "aliases": [],
+          "meaning": "strong-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/pungent"
+          ],
+          "frequency": 2.91,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "strong:forceful",
+          "text": "forceful",
+          "aliases": [],
+          "meaning": "strong-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/strong",
+            "https://dictionary.cambridge.org/dictionary/english/forceful"
+          ],
+          "frequency": 3.24,
+          "review": "Editorial semantic match; dictionary links for verification"
+        }
+      ]
+    },
+    {
+      "id": "quiet",
+      "word": "quiet",
+      "meanings": [
+        {
+          "id": "quiet-0",
+          "label": "Making little or no noise"
+        },
+        {
+          "id": "quiet-1",
+          "label": "Peaceful and without disturbance"
+        },
+        {
+          "id": "quiet-2",
+          "label": "Not talkative or showy"
+        }
+      ],
+      "answers": [
+        {
+          "id": "quiet:silent",
+          "text": "silent",
+          "aliases": [],
+          "meaning": "quiet-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quiet",
+            "https://dictionary.cambridge.org/dictionary/english/silent"
+          ],
+          "frequency": 4.45,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quiet:hushed",
+          "text": "hushed",
+          "aliases": [],
+          "meaning": "quiet-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense hushed.s.01"
+          ],
+          "frequency": 2.93,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "quiet:noiseless",
+          "text": "noiseless",
+          "aliases": [],
+          "meaning": "quiet-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quiet",
+            "https://dictionary.cambridge.org/dictionary/english/noiseless"
+          ],
+          "frequency": 2.03,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quiet:muted",
+          "text": "muted",
+          "aliases": [],
+          "meaning": "quiet-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense hushed.s.01"
+          ],
+          "frequency": 3.42,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "quiet:soundless",
+          "text": "soundless",
+          "aliases": [],
+          "meaning": "quiet-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quiet",
+            "https://dictionary.cambridge.org/dictionary/english/soundless"
+          ],
+          "frequency": 2.11,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quiet:soft",
+          "text": "soft",
+          "aliases": [],
+          "meaning": "quiet-0",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quiet",
+            "https://dictionary.cambridge.org/dictionary/english/soft"
+          ],
+          "frequency": 4.68,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quiet:inaudible",
+          "text": "inaudible",
+          "aliases": [],
+          "meaning": "quiet-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quiet",
+            "https://dictionary.cambridge.org/dictionary/english/inaudible"
+          ],
+          "frequency": 2.79,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quiet:peaceful",
+          "text": "peaceful",
+          "aliases": [],
+          "meaning": "quiet-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quiet",
+            "https://dictionary.cambridge.org/dictionary/english/peaceful"
+          ],
+          "frequency": 4.28,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quiet:calm",
+          "text": "calm",
+          "aliases": [],
+          "meaning": "quiet-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense calm.v.01"
+          ],
+          "frequency": 4.54,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "quiet:tranquil",
+          "text": "tranquil",
+          "aliases": [],
+          "meaning": "quiet-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense placid.s.01"
+          ],
+          "frequency": 3.14,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "quiet:serene",
+          "text": "serene",
+          "aliases": [],
+          "meaning": "quiet-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quiet",
+            "https://dictionary.cambridge.org/dictionary/english/serene"
+          ],
+          "frequency": 3.27,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quiet:still",
+          "text": "still",
+          "aliases": [],
+          "meaning": "quiet-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense calm.v.01",
+            "https://wordnet.princeton.edu/ — sense placid.s.01"
+          ],
+          "frequency": 5.92,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "quiet:undisturbed",
+          "text": "undisturbed",
+          "aliases": [],
+          "meaning": "quiet-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quiet",
+            "https://dictionary.cambridge.org/dictionary/english/undisturbed"
+          ],
+          "frequency": 2.99,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quiet:reserved",
+          "text": "reserved",
+          "aliases": [],
+          "meaning": "quiet-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quiet",
+            "https://dictionary.cambridge.org/dictionary/english/reserved"
+          ],
+          "frequency": 4.18,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quiet:reticent",
+          "text": "reticent",
+          "aliases": [],
+          "meaning": "quiet-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quiet",
+            "https://dictionary.cambridge.org/dictionary/english/reticent"
+          ],
+          "frequency": 2.62,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quiet:taciturn",
+          "text": "taciturn",
+          "aliases": [],
+          "meaning": "quiet-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quiet",
+            "https://dictionary.cambridge.org/dictionary/english/taciturn"
+          ],
+          "frequency": 2.37,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quiet:unassuming",
+          "text": "unassuming",
+          "aliases": [],
+          "meaning": "quiet-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quiet",
+            "https://dictionary.cambridge.org/dictionary/english/unassuming"
+          ],
+          "frequency": 2.82,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quiet:understated",
+          "text": "understated",
+          "aliases": [],
+          "meaning": "quiet-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quiet",
+            "https://dictionary.cambridge.org/dictionary/english/understated"
+          ],
+          "frequency": 3.11,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quiet:soft-spoken",
+          "text": "soft-spoken",
+          "aliases": [],
+          "meaning": "quiet-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quiet",
+            "https://dictionary.cambridge.org/dictionary/english/soft-spoken"
+          ],
+          "frequency": 4.25,
+          "review": "Editorial semantic match; dictionary links for verification"
+        }
+      ]
+    },
+    {
+      "id": "quick",
+      "word": "quick",
+      "meanings": [
+        {
+          "id": "quick-0",
+          "label": "Moving or happening fast"
+        },
+        {
+          "id": "quick-1",
+          "label": "Taking little time"
+        },
+        {
+          "id": "quick-2",
+          "label": "Prompt to understand or respond"
+        }
+      ],
+      "answers": [
+        {
+          "id": "quick:fast",
+          "text": "fast",
+          "aliases": [],
+          "meaning": "quick-0",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense flying.s.02"
+          ],
+          "frequency": 5.13,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "quick:swift",
+          "text": "swift",
+          "aliases": [],
+          "meaning": "quick-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quick",
+            "https://dictionary.cambridge.org/dictionary/english/swift"
+          ],
+          "frequency": 4.15,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quick:rapid",
+          "text": "rapid",
+          "aliases": [],
+          "meaning": "quick-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quick",
+            "https://dictionary.cambridge.org/dictionary/english/rapid"
+          ],
+          "frequency": 4.38,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quick:speedy",
+          "text": "speedy",
+          "aliases": [],
+          "meaning": "quick-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense quick.s.01"
+          ],
+          "frequency": 3.65,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "quick:fleet",
+          "text": "fleet",
+          "aliases": [],
+          "meaning": "quick-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quick",
+            "https://dictionary.cambridge.org/dictionary/english/fleet"
+          ],
+          "frequency": 4.33,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quick:brisk",
+          "text": "brisk",
+          "aliases": [],
+          "meaning": "quick-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quick",
+            "https://dictionary.cambridge.org/dictionary/english/brisk"
+          ],
+          "frequency": 3.2,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quick:expeditious",
+          "text": "expeditious",
+          "aliases": [],
+          "meaning": "quick-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quick",
+            "https://dictionary.cambridge.org/dictionary/english/expeditious"
+          ],
+          "frequency": 2.31,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quick:like-a-shot",
+          "text": "like a shot",
+          "aliases": [],
+          "meaning": "quick-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quick",
+            "https://dictionary.cambridge.org/dictionary/english/like-a-shot"
+          ],
+          "frequency": null,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quick:in-a-flash",
+          "text": "in a flash",
+          "aliases": [],
+          "meaning": "quick-0",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quick",
+            "https://dictionary.cambridge.org/dictionary/english/in-a-flash"
+          ],
+          "frequency": null,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quick:brief",
+          "text": "brief",
+          "aliases": [],
+          "meaning": "quick-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quick",
+            "https://dictionary.cambridge.org/dictionary/english/brief"
+          ],
+          "frequency": 4.52,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quick:short",
+          "text": "short",
+          "aliases": [],
+          "meaning": "quick-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quick",
+            "https://dictionary.cambridge.org/dictionary/english/short"
+          ],
+          "frequency": 5.33,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quick:fleeting",
+          "text": "fleeting",
+          "aliases": [],
+          "meaning": "quick-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quick",
+            "https://dictionary.cambridge.org/dictionary/english/fleeting"
+          ],
+          "frequency": 3.32,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quick:momentary",
+          "text": "momentary",
+          "aliases": [],
+          "meaning": "quick-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quick",
+            "https://dictionary.cambridge.org/dictionary/english/momentary"
+          ],
+          "frequency": 3.08,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quick:hasty",
+          "text": "hasty",
+          "aliases": [],
+          "meaning": "quick-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quick",
+            "https://dictionary.cambridge.org/dictionary/english/hasty"
+          ],
+          "frequency": 3.29,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quick:alert",
+          "text": "alert",
+          "aliases": [],
+          "meaning": "quick-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quick",
+            "https://dictionary.cambridge.org/dictionary/english/alert"
+          ],
+          "frequency": 4.33,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quick:nimble",
+          "text": "nimble",
+          "aliases": [],
+          "meaning": "quick-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense agile.s.01"
+          ],
+          "frequency": 3.07,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "quick:agile",
+          "text": "agile",
+          "aliases": [],
+          "meaning": "quick-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense agile.s.01"
+          ],
+          "frequency": 3.41,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "quick:sharp",
+          "text": "sharp",
+          "aliases": [],
+          "meaning": "quick-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quick",
+            "https://dictionary.cambridge.org/dictionary/english/sharp"
+          ],
+          "frequency": 4.48,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quick:quick-witted",
+          "text": "quick-witted",
+          "aliases": [],
+          "meaning": "quick-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quick",
+            "https://dictionary.cambridge.org/dictionary/english/quick-witted"
+          ],
+          "frequency": 2.86,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quick:perceptive",
+          "text": "perceptive",
+          "aliases": [],
+          "meaning": "quick-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quick",
+            "https://dictionary.cambridge.org/dictionary/english/perceptive"
+          ],
+          "frequency": 2.99,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "quick:responsive",
+          "text": "responsive",
+          "aliases": [],
+          "meaning": "quick-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/quick",
+            "https://dictionary.cambridge.org/dictionary/english/responsive"
+          ],
+          "frequency": 3.7,
+          "review": "Editorial semantic match; dictionary links for verification"
+        }
+      ]
+    },
+    {
+      "id": "kind",
+      "word": "kind",
+      "meanings": [
+        {
+          "id": "kind-0",
+          "label": "Caring and considerate"
+        },
+        {
+          "id": "kind-1",
+          "label": "A category or variety"
+        }
+      ],
+      "answers": [
+        {
+          "id": "kind:caring",
+          "text": "caring",
+          "aliases": [],
+          "meaning": "kind-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/kind",
+            "https://dictionary.cambridge.org/dictionary/english/caring"
+          ],
+          "frequency": 4.2,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "kind:considerate",
+          "text": "considerate",
+          "aliases": [],
+          "meaning": "kind-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/kind",
+            "https://dictionary.cambridge.org/dictionary/english/considerate"
+          ],
+          "frequency": 3.3,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "kind:thoughtful",
+          "text": "thoughtful",
+          "aliases": [],
+          "meaning": "kind-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/kind",
+            "https://dictionary.cambridge.org/dictionary/english/thoughtful"
+          ],
+          "frequency": 3.83,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "kind:benevolent",
+          "text": "benevolent",
+          "aliases": [],
+          "meaning": "kind-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/kind",
+            "https://dictionary.cambridge.org/dictionary/english/benevolent"
+          ],
+          "frequency": 3.34,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "kind:compassionate",
+          "text": "compassionate",
+          "aliases": [],
+          "meaning": "kind-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/kind",
+            "https://dictionary.cambridge.org/dictionary/english/compassionate"
+          ],
+          "frequency": 3.55,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "kind:gentle",
+          "text": "gentle",
+          "aliases": [],
+          "meaning": "kind-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/kind",
+            "https://dictionary.cambridge.org/dictionary/english/gentle"
+          ],
+          "frequency": 4.17,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "kind:generous",
+          "text": "generous",
+          "aliases": [],
+          "meaning": "kind-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/kind",
+            "https://dictionary.cambridge.org/dictionary/english/generous"
+          ],
+          "frequency": 4.2,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "kind:benign",
+          "text": "benign",
+          "aliases": [],
+          "meaning": "kind-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/kind",
+            "https://dictionary.cambridge.org/dictionary/english/benign"
+          ],
+          "frequency": 3.51,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "kind:big-hearted",
+          "text": "big-hearted",
+          "aliases": [],
+          "meaning": "kind-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/kind",
+            "https://dictionary.cambridge.org/dictionary/english/big-hearted"
+          ],
+          "frequency": 3.76,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "kind:good-hearted",
+          "text": "good-hearted",
+          "aliases": [],
+          "meaning": "kind-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/kind",
+            "https://dictionary.cambridge.org/dictionary/english/good-hearted"
+          ],
+          "frequency": 3.77,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "kind:nice",
+          "text": "nice",
+          "aliases": [],
+          "meaning": "kind-0",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/kind",
+            "https://dictionary.cambridge.org/dictionary/english/nice"
+          ],
+          "frequency": 5.37,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "kind:type",
+          "text": "type",
+          "aliases": [],
+          "meaning": "kind-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/kind",
+            "https://dictionary.cambridge.org/dictionary/english/type"
+          ],
+          "frequency": 5.27,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "kind:sort",
+          "text": "sort",
+          "aliases": [],
+          "meaning": "kind-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense kind.n.01"
+          ],
+          "frequency": 5.0,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "kind:variety",
+          "text": "variety",
+          "aliases": [],
+          "meaning": "kind-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense kind.n.01"
+          ],
+          "frequency": 4.75,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "kind:category",
+          "text": "category",
+          "aliases": [],
+          "meaning": "kind-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/kind",
+            "https://dictionary.cambridge.org/dictionary/english/category"
+          ],
+          "frequency": 4.57,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "kind:class",
+          "text": "class",
+          "aliases": [],
+          "meaning": "kind-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/kind",
+            "https://dictionary.cambridge.org/dictionary/english/class"
+          ],
+          "frequency": 5.36,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "kind:species",
+          "text": "species",
+          "aliases": [],
+          "meaning": "kind-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/kind",
+            "https://dictionary.cambridge.org/dictionary/english/species"
+          ],
+          "frequency": 4.85,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "kind:genre",
+          "text": "genre",
+          "aliases": [],
+          "meaning": "kind-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/kind",
+            "https://dictionary.cambridge.org/dictionary/english/genre"
+          ],
+          "frequency": 4.17,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "kind:ilk",
+          "text": "ilk",
+          "aliases": [],
+          "meaning": "kind-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/kind",
+            "https://dictionary.cambridge.org/dictionary/english/ilk"
+          ],
+          "frequency": 2.91,
+          "review": "Editorial semantic match; dictionary links for verification"
+        }
+      ]
+    },
+    {
+      "id": "clear",
+      "word": "clear",
+      "meanings": [
+        {
+          "id": "clear-0",
+          "label": "Easy to understand"
+        },
+        {
+          "id": "clear-1",
+          "label": "Transparent or easy to see through"
+        },
+        {
+          "id": "clear-2",
+          "label": "Free of obstructions"
+        },
+        {
+          "id": "clear-3",
+          "label": "To remove things from a place"
+        }
+      ],
+      "answers": [
+        {
+          "id": "clear:plain",
+          "text": "plain",
+          "aliases": [],
+          "meaning": "clear-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/plain"
+          ],
+          "frequency": 4.43,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:obvious",
+          "text": "obvious",
+          "aliases": [],
+          "meaning": "clear-0",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/obvious"
+          ],
+          "frequency": 4.63,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:evident",
+          "text": "evident",
+          "aliases": [],
+          "meaning": "clear-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/evident"
+          ],
+          "frequency": 3.99,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:explicit",
+          "text": "explicit",
+          "aliases": [],
+          "meaning": "clear-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/explicit"
+          ],
+          "frequency": 3.96,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:unambiguous",
+          "text": "unambiguous",
+          "aliases": [],
+          "meaning": "clear-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/unambiguous"
+          ],
+          "frequency": 2.89,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:lucid",
+          "text": "lucid",
+          "aliases": [],
+          "meaning": "clear-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/lucid"
+          ],
+          "frequency": 3.27,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:intelligible",
+          "text": "intelligible",
+          "aliases": [],
+          "meaning": "clear-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/intelligible"
+          ],
+          "frequency": 2.77,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:pellucid",
+          "text": "pellucid",
+          "aliases": [],
+          "meaning": "clear-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/pellucid"
+          ],
+          "frequency": 1.6,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:transparent",
+          "text": "transparent",
+          "aliases": [],
+          "meaning": "clear-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/transparent"
+          ],
+          "frequency": 4.01,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:limpid",
+          "text": "limpid",
+          "aliases": [],
+          "meaning": "clear-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/limpid"
+          ],
+          "frequency": 2.04,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:crystalline",
+          "text": "crystalline",
+          "aliases": [],
+          "meaning": "clear-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/crystalline"
+          ],
+          "frequency": 3.24,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:see-through",
+          "text": "see-through",
+          "aliases": [],
+          "meaning": "clear-1",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/see-through"
+          ],
+          "frequency": 5.67,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:unobstructed",
+          "text": "unobstructed",
+          "aliases": [],
+          "meaning": "clear-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/unobstructed"
+          ],
+          "frequency": 2.65,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:open",
+          "text": "open",
+          "aliases": [],
+          "meaning": "clear-2",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://wordnet.princeton.edu/ — sense open.n.01",
+            "https://wordnet.princeton.edu/ — sense clear.s.02"
+          ],
+          "frequency": 5.48,
+          "review": "WordNet shared-sense candidate"
+        },
+        {
+          "id": "clear:unimpeded",
+          "text": "unimpeded",
+          "aliases": [],
+          "meaning": "clear-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/unimpeded"
+          ],
+          "frequency": 2.53,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:unblocked",
+          "text": "unblocked",
+          "aliases": [],
+          "meaning": "clear-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/unblocked"
+          ],
+          "frequency": 2.59,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:empty",
+          "text": "empty",
+          "aliases": [],
+          "meaning": "clear-3",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/empty"
+          ],
+          "frequency": 4.59,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:remove",
+          "text": "remove",
+          "aliases": [],
+          "meaning": "clear-3",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/remove"
+          ],
+          "frequency": 4.71,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:evacuate",
+          "text": "evacuate",
+          "aliases": [],
+          "meaning": "clear-3",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/evacuate"
+          ],
+          "frequency": 3.53,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "clear:vacate",
+          "text": "vacate",
+          "aliases": [],
+          "meaning": "clear-3",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/clear",
+            "https://dictionary.cambridge.org/dictionary/english/vacate"
+          ],
+          "frequency": 3.14,
+          "review": "Editorial semantic match; dictionary links for verification"
+        }
+      ]
+    },
+    {
+      "id": "bold",
+      "word": "bold",
+      "meanings": [
+        {
+          "id": "bold-0",
+          "label": "Confident and willing to take risks"
+        },
+        {
+          "id": "bold-1",
+          "label": "Striking and conspicuous"
+        },
+        {
+          "id": "bold-2",
+          "label": "Impudent or overly forward"
+        }
+      ],
+      "answers": [
+        {
+          "id": "bold:brave",
+          "text": "brave",
+          "aliases": [],
+          "meaning": "bold-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/brave"
+          ],
+          "frequency": 4.33,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:daring",
+          "text": "daring",
+          "aliases": [],
+          "meaning": "bold-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/daring"
+          ],
+          "frequency": 3.7,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:fearless",
+          "text": "fearless",
+          "aliases": [],
+          "meaning": "bold-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/fearless"
+          ],
+          "frequency": 3.55,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:courageous",
+          "text": "courageous",
+          "aliases": [],
+          "meaning": "bold-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/courageous"
+          ],
+          "frequency": 3.59,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:audacious",
+          "text": "audacious",
+          "aliases": [],
+          "meaning": "bold-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/audacious"
+          ],
+          "frequency": 2.95,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:intrepid",
+          "text": "intrepid",
+          "aliases": [],
+          "meaning": "bold-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/intrepid"
+          ],
+          "frequency": 3.04,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:dauntless",
+          "text": "dauntless",
+          "aliases": [],
+          "meaning": "bold-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/dauntless"
+          ],
+          "frequency": 2.69,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:adventurous",
+          "text": "adventurous",
+          "aliases": [],
+          "meaning": "bold-0",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/adventurous"
+          ],
+          "frequency": 3.48,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:plucky",
+          "text": "plucky",
+          "aliases": [],
+          "meaning": "bold-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/plucky"
+          ],
+          "frequency": 2.62,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:gutsy",
+          "text": "gutsy",
+          "aliases": [],
+          "meaning": "bold-0",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/gutsy"
+          ],
+          "frequency": 2.73,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:striking",
+          "text": "striking",
+          "aliases": [],
+          "meaning": "bold-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/striking"
+          ],
+          "frequency": 4.2,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:conspicuous",
+          "text": "conspicuous",
+          "aliases": [],
+          "meaning": "bold-1",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/conspicuous"
+          ],
+          "frequency": 3.35,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:prominent",
+          "text": "prominent",
+          "aliases": [],
+          "meaning": "bold-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/prominent"
+          ],
+          "frequency": 4.33,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:vivid",
+          "text": "vivid",
+          "aliases": [],
+          "meaning": "bold-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/vivid"
+          ],
+          "frequency": 3.75,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:eye-catching",
+          "text": "eye-catching",
+          "aliases": [],
+          "meaning": "bold-1",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/eye-catching"
+          ],
+          "frequency": 4.14,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:brazen",
+          "text": "brazen",
+          "aliases": [],
+          "meaning": "bold-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/brazen"
+          ],
+          "frequency": 3.1,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:impudent",
+          "text": "impudent",
+          "aliases": [],
+          "meaning": "bold-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/impudent"
+          ],
+          "frequency": 2.46,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:forward",
+          "text": "forward",
+          "aliases": [],
+          "meaning": "bold-2",
+          "tier": "familiar",
+          "points": 50,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/forward"
+          ],
+          "frequency": 5.12,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:cheeky",
+          "text": "cheeky",
+          "aliases": [],
+          "meaning": "bold-2",
+          "tier": "uncommon",
+          "points": 75,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/cheeky"
+          ],
+          "frequency": 3.51,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:impertinent",
+          "text": "impertinent",
+          "aliases": [],
+          "meaning": "bold-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/impertinent"
+          ],
+          "frequency": 2.55,
+          "review": "Editorial semantic match; dictionary links for verification"
+        },
+        {
+          "id": "bold:brash",
+          "text": "brash",
+          "aliases": [],
+          "meaning": "bold-2",
+          "tier": "rare",
+          "points": 100,
+          "source": [
+            "https://dictionary.cambridge.org/dictionary/english/bold",
+            "https://dictionary.cambridge.org/dictionary/english/brash"
+          ],
+          "frequency": 2.95,
+          "review": "Editorial semantic match; dictionary links for verification"
+        }
+      ]
+    }
+  ]
+}

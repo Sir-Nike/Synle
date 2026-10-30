@@ -1,0 +1,42 @@
+{
+  "name": "synle",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n api,web \"tsx watch --include './content/**/*.json' server/index.ts\" \"vite --host 0.0.0.0\"",
+    "build": "npm run check && vite build",
+    "check": "tsc --noEmit",
+    "start": "tsx server/index.ts",
+    "test": "tsx --test tests/*.test.ts",
+    "content:check": "tsx scripts/check-content.ts"
+  },
+  "dependencies": {
+    "@fontsource/lexend": "^5.2.0",
+    "@fontsource/source-sans-3": "^5.2.0",
+    "bad-words": "^4.1.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "lucide-react": "^0.468.0",
+    "pg": "^8.16.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tsx": "^4.20.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.15.0",
+    "@types/pg": "^8.15.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.4.0",
+    "concurrently": "^9.1.0",
+    "typescript": "^5.8.0",
+    "vite": "^6.3.0"
+  }
+}

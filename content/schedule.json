@@ -1,0 +1,46 @@
+[
+  {
+    "id": "2026-10-30-v1",
+    "date": "2026-10-30",
+    "number": 1,
+    "promptIds": [
+      "bright",
+      "light",
+      "calm"
+    ],
+    "version": "v1"
+  },
+  {
+    "id": "2026-10-31-v2",
+    "date": "2026-10-31",
+    "number": 2,
+    "promptIds": [
+      "sharp",
+      "warm",
+      "cold"
+    ],
+    "version": "v2"
+  },
+  {
+    "id": "2026-11-01-v2",
+    "date": "2026-11-01",
+    "number": 3,
+    "promptIds": [
+      "strong",
+      "quiet",
+      "quick"
+    ],
+    "version": "v2"
+  },
+  {
+    "id": "2026-11-02-v2",
+    "date": "2026-11-02",
+    "number": 4,
+    "promptIds": [
+      "kind",
+      "clear",
+      "bold"
+    ],
+    "version": "v2"
+  }
+]
