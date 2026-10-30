@@ -36,7 +36,7 @@ The follow-up also exercised offline submission/retry without consuming attempts
 
 ## Remaining verification
 
-- Listen to sound previews and tune their subjective volume/tone.
+- Sound design was approved by the user on October 30, 2026.
 - Conduct human difficulty playtests; v2 rarity has been calibrated during the agent playtest, but subjective familiarity still varies.
 - Verify individual editorial dictionary references and broaden regional expressions as needed.
 - Hosted PostgreSQL adapter and actual Render deployment require user-provisioned infrastructure and have not been exercised against a live remote database.

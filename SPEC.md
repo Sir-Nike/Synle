@@ -78,7 +78,7 @@ Verify consequential rules: meanings, aliases, distinct synonyms, duplicates, co
 - Review initial content banks and calibrate rarity through playtesting.
 - Verify free hosting and durable storage constraints before choosing deployment details.
 - Select final fonts and inspect reference screenshot if available.
-- Listen to sound prototypes and verify visual accessibility.
+- Verify visual accessibility in the final hosted build.
 - Confirm actual presentation date before scheduling challenges.
 
 ## Implementation status
@@ -88,3 +88,5 @@ The initial local full-stack build is implemented. React/Vite frontend, Express 
 Follow-up: Settings now supports saved Light/Dark/Device appearance. A 100-case agent content playtest led to a v2 bank with 283 expressions and calibrated rarity. The October 30 daily game retains v1; the revised demo and future scheduled daily games use v2. Offline/retry messaging and damaged display-index recovery are improved. See `docs/PLAYTEST.md` for findings and limits.
 
 Automated tests cover scoring, aliases, typos, invalid answers, signed restoration, early ending, IST reset and API validation. Browser checks cover desktop/mobile gameplay, refresh recovery, early-end confirmation, final results, clipboard sharing and sound preview controls. Content source links and rarity cutoffs still need editorial calibration; no claim is made that all linked dictionary pages have been individually verified. Hosting is prepared but not provisioned or deployed.
+
+Sounds were approved by the user on October 30, 2026. Deployment source is the private GitHub repository https://github.com/Sir-Nike/Synle; Render setup uses a free web service and free PostgreSQL Blueprint.
