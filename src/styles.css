@@ -18,7 +18,7 @@
   --button-edge: #2b4ca4;
   --button-hover: #2c4da6;
   --muted-mark: #a6b6d8;
-  --subtle-text: #6d7c8c;
+  --subtle-text: #5d6c7d;
   --positive-soft: #e3f1eb;
   --positive-line: #accbbd;
   --input-edge: #7183a0;
@@ -36,7 +36,7 @@
   --on-primary: #ffffff;
   --button-fill: #3659b8;
 }
-:root[data-theme="dark"] {
+:root[data-theme='dark'] {
   --page: #111925;
   --text: #edf2fc;
   --secondary: #b1bed2;
@@ -75,7 +75,7 @@
   --button-fill: #91acff;
 }
 :root {
-  font-family: "Source Sans 3", sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   color: var(--text);
   background: var(--page);
   font-synthesis: none;
@@ -549,7 +549,7 @@ main {
   justify-content: center;
 }
 .round-track button::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 21px;
   left: -25%;
@@ -750,7 +750,7 @@ main {
   font-variant-numeric: tabular-nums;
 }
 .section-title > strong small {
-  font-family: "Source Sans 3", sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 13px;
   color: var(--muted);
   font-weight: 400;
@@ -864,7 +864,7 @@ main {
 }
 .answer-points small {
   display: block;
-  font-family: "Source Sans 3", sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-weight: 400;
   font-size: 10px;
   line-height: 1;
@@ -1037,7 +1037,7 @@ summary::-webkit-details-marker {
   padding: 13px 0;
 }
 .meaning-group h3 {
-  font-family: "Source Sans 3", sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 13px;
   font-weight: 600;
   margin-bottom: 7px;
@@ -1099,7 +1099,7 @@ summary::-webkit-details-marker {
   font-weight: 500;
 }
 .big-score > span {
-  font-family: "Source Sans 3", sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   color: var(--muted);
   font-size: 21px;
   letter-spacing: 0;
@@ -1142,7 +1142,7 @@ summary::-webkit-details-marker {
   font-size: 21px;
 }
 .result-rounds small {
-  font-family: "Source Sans 3", sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 12px;
   font-weight: 400;
   color: var(--muted);
@@ -1336,7 +1336,7 @@ summary::-webkit-details-marker {
   flex-shrink: 0;
 }
 .toggle:before {
-  content: "";
+  content: '';
   position: absolute;
   inset: -1px;
   border-radius: 30px;
@@ -1361,7 +1361,7 @@ summary::-webkit-details-marker {
 }
 .sound-title {
   font-size: 15px;
-  font-family: "Source Sans 3", sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-weight: 600;
   margin-top: 27px;
 }
@@ -1776,10 +1776,229 @@ summary::-webkit-details-marker {
 .result-word {
   text-align: left;
 }
-:root[data-theme="dark"] .modal::backdrop {
+:root[data-theme='dark'] .modal::backdrop {
   background: var(--backdrop);
 }
-:root[data-theme="dark"] .check-circle {
+:root[data-theme='dark'] .check-circle {
   background: var(--positive);
   color: var(--page);
+}
+
+/* Account pages share the game's surfaces, typography and colour tokens. */
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  transform: translateY(-160%);
+  z-index: 1000;
+  background: var(--surface);
+  color: var(--accent);
+  padding: 12px 18px;
+  border: 2px solid var(--accent);
+  border-radius: 8px;
+}
+.skip-link:focus {
+  transform: translateY(0);
+}
+.page-nav {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+  padding: 0 0 12px;
+  margin-bottom: 28px;
+}
+.page-nav a {
+  padding: 10px 12px;
+  min-height: 44px;
+  color: var(--secondary);
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.page-nav a[aria-current='page'],
+.page-nav a:hover {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+.account-page {
+  padding: 12px 0 24px;
+}
+.account-page h1 {
+  font-size: clamp(2rem, 7vw, 2.8rem);
+  line-height: 1.12;
+  margin: 12px 0 18px;
+  letter-spacing: -0.04em;
+}
+.account-page h2 {
+  font-size: 1.25rem;
+  margin-top: 28px;
+}
+.page-lede {
+  color: var(--secondary);
+  font-size: 1.15rem;
+  margin-bottom: 28px;
+}
+.account-card {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--surface);
+  margin: 24px 0;
+}
+.account-card h2,
+.account-card h3 {
+  margin-top: 0;
+}
+.account-card p,
+.account-page > p {
+  color: var(--secondary);
+}
+.account-card .button {
+  text-decoration: none;
+}
+.is-disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+.account-identity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 24px 0;
+}
+.history-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.history-stats > div {
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+}
+.history-stats dt {
+  color: var(--secondary);
+}
+.history-stats dd {
+  margin: 8px 0 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.history-stats dd small {
+  font-size: 0.85rem;
+  color: var(--secondary);
+}
+.score-history {
+  list-style: none;
+  padding: 0;
+}
+.score-history li {
+  margin: 12px 0;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.score-history summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px;
+  cursor: pointer;
+  min-height: 60px;
+}
+.score-history summary small {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--secondary);
+  font-weight: 400;
+}
+.score-history summary > strong {
+  text-align: right;
+}
+.score-history dl {
+  margin: 0;
+  padding: 0 18px 18px;
+  border-top: 1px solid var(--line);
+}
+.score-history dl > div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+.score-history dd {
+  margin: 0;
+}
+.history-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 24px;
+}
+.privacy-note {
+  font-size: 0.88rem;
+  border-top: 1px solid var(--line);
+  padding-top: 24px;
+  margin-top: 32px;
+}
+.site-footer a {
+  color: var(--secondary);
+}
+main:focus {
+  outline: none;
+}
+@media (max-width: 400px) {
+  .page-nav {
+    gap: 0;
+  }
+  .page-nav a {
+    padding: 10px 8px;
+    font-size: 0.9rem;
+  }
+  .account-card {
+    padding: 18px;
+  }
+  .account-identity {
+    align-items: flex-start;
+  }
+  .history-stats > div {
+    padding: 14px;
+  }
+}
+.account-page h1[tabindex='-1']:focus {
+  outline: none;
+}
+.account-card > .button {
+  margin: 8px 0 12px;
+}
+.account-card > .small {
+  margin: 12px 0;
+}
+.account-nav {
+  display: flex;
+  justify-content: flex-end;
+  min-height: 32px;
+  font-size: 0.88rem;
+  color: var(--secondary);
+  margin-top: -20px;
+  margin-bottom: 16px;
+}
+.account-nav a {
+  color: var(--accent);
+  padding: 6px 10px;
+  min-height: 32px;
+}
+.login-page .button.secondary {
+  margin-top: 12px;
+}
+.account-nav a {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.account-identity p {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }

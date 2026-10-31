@@ -2,7 +2,7 @@
 
 ## Scope
 
-A daily, full-stack synonym browser game built by one developer in three days, using free hosting. No accounts or public leaderboard in the first version.
+A daily, full-stack synonym browser game built by one developer in three days, using free hosting. Optional Google sign-in and private score history are included for the course assessment. No public leaderboard.
 
 ## Rules
 
@@ -37,7 +37,7 @@ First prepare and review five complete prompt banks; expand to twelve for four d
 - Final results: daily total, round breakdown, best answer, spoiler-free copy/share, next-reset countdown.
 - End-round control with confirmation.
 - Separate demo challenge, isolated from daily progress and scoring, for presentation.
-- Progress survives refreshes. One scored game per browser per day is a casual restriction.
+- Progress survives refreshes. Daily progress is stored per guest browser or signed-in account and challenge. Logging in merges guest games without replacing existing account games. Clearing cookies remains a casual-play limitation.
 - Missing challenge has an explicit unavailable state; never silently reuse a different day's challenge.
 
 ## Design direction
@@ -83,10 +83,12 @@ Verify consequential rules: meanings, aliases, distinct synonyms, duplicates, co
 
 ## Implementation status
 
-The initial local full-stack build is implemented. React/Vite frontend, Express scoring API, signed browser progress, SQLite reports/events and optional PostgreSQL storage are connected. Twelve initial prompt banks contain 268 accepted expressions. The four scheduled challenges cover October 30–November 2, 2026; the separate demo is always available.
+The initial local full-stack build is implemented. React/Vite frontend, Express scoring API, signed browser progress, SQLite reports/events and optional PostgreSQL storage are connected. Twelve initial prompt banks contain 268 accepted expressions. The four scheduled challenges cover October 30–November 2, 2026; the separate demo is available to signed-in users independently of the daily schedule.
 
 Follow-up: Settings now supports saved Light/Dark/Device appearance. A 100-case agent content playtest led to a v2 bank with 283 expressions and calibrated rarity. The October 30 daily game retains v1; the revised demo and future scheduled daily games use v2. Offline/retry messaging and damaged display-index recovery are improved. See `docs/PLAYTEST.md` for findings and limits.
 
 Automated tests cover scoring, aliases, typos, invalid answers, signed restoration, early ending, IST reset and API validation. Browser checks cover desktop/mobile gameplay, refresh recovery, early-end confirmation, final results, clipboard sharing and sound preview controls. Content source links and rarity cutoffs still need editorial calibration; no claim is made that all linked dictionary pages have been individually verified. Hosting is prepared but not provisioned or deployed.
 
 Sounds were approved by the user on October 30, 2026. Deployment source is the private GitHub repository https://github.com/Sir-Nike/Synle; Render setup uses a free web service and free PostgreSQL Blueprint.
+
+Assessment update October 31: /login is a dedicated sign-in/account page. Home and daily play are public; Demo and History require a Google-authenticated session and prompt guests using a cancellable native dialog. Daily games and account history are persisted with owner/challenge uniqueness and revision checks. See docs/ACCOUNTS.md, docs/ACCESSIBILITY.md and docs/TEST-RESULTS.md.

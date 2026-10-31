@@ -2,7 +2,7 @@
 
 ## Current bank
 
-12 prompts, 268 candidate answers. Prompts are bright, light, calm, sharp, warm, cold, strong, quiet, quick, kind, clear and bold. The initial schedule covers **October 30 through November 2, 2026**, one three-word challenge per day. No later challenge is silently substituted. The demo always uses bright, light and calm and is separately saved.
+12 prompts, 268 candidate answers. Prompts are bright, light, calm, sharp, warm, cold, strong, quiet, quick, kind, clear and bold. The schedule covers **October 30 through December 1, 2026**, one three-word challenge per day. Dates after November 2 reuse the twelve reviewed v2 words in rotating combinations. This is an extension of availability, not an expanded vocabulary bank. Published entries and scores remain unchanged. No later challenge is silently substituted. The demo always uses bright, light and calm and is separately saved.
 
 This is an initial editorial bank, not an exhaustive dictionary. Its semantic matches were selected during development; dictionary links on editorial entries indicate where a human reviewer can verify them, and are **not a claim that each linked page has been individually checked**. Regional/slang coverage is currently limited (e.g. *baltic*, *nippy*, *gutsy*); it does not yet cover every eligible English-speaking region.
 

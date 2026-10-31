@@ -7,3 +7,4 @@ dist/
 data/
 test-results/
 *.log
+reports/
