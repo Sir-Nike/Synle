@@ -28,6 +28,6 @@ The latest exact counts and Lighthouse scores are recorded in `docs/TEST-RESULTS
 
 The browser checks cover keyboard navigation, skip link activation, dialog cancellation/focus return, theme persistence, 375px layout and reduced-motion preference. Screenshots were inspected during development. The user completed Google sign-in locally; a user record and active sessions were confirmed in the local database without exposing credentials. Real Google sign-in is separate from seeded test sessions.
 
-A dedicated screen-reader assessment, 400% zoom, multiple desktop/mobile browsers and testing with users with disabilities remain recommended. Database schema support exists for PostgreSQL, but this change has not been deployed to or retested against the hosted database. The user elected to retain the existing Render database for now.
+A spoken screen-reader assessment, native browser zoom and testing on physical devices remain recommended. Firefox 157 scoring/restore/history, 320 CSS-pixel reflow and a 400% CSS-zoom login check passed; CSS zoom does not establish native browser zoom. The live PostgreSQL account/history flow was verified, including persistence after refresh and logout/fresh sign-in. The existing Render database is retained.
 
 Reference: https://www.w3.org/TR/WCAG22/ and https://www.w3.org/WAI/WCAG22/quickref/ .
