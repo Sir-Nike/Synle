@@ -1325,35 +1325,34 @@ summary::-webkit-details-marker {
   margin-top: 3px;
 }
 .toggle {
-  width: 49px;
-  height: 30px;
+  width: 63px;
+  height: 44px;
+  padding: 0;
   border-radius: 30px;
-  background: var(--neutral-mark);
+  background: transparent;
   position: relative;
-  border: 7px solid transparent;
-  background-clip: padding-box;
-  box-sizing: content-box;
+  border: 0;
   flex-shrink: 0;
 }
 .toggle:before {
   content: '';
   position: absolute;
-  inset: -1px;
+  inset: 7px;
   border-radius: 30px;
-  background: inherit;
+  background: var(--neutral-mark);
 }
 .toggle span {
   position: absolute;
   z-index: 1;
   width: 22px;
   height: 22px;
-  top: 4px;
-  left: 4px;
+  top: 11px;
+  left: 11px;
   border-radius: 50%;
   background: #fff;
   transition: transform 0.16s;
 }
-.toggle.on {
+.toggle.on:before {
   background-color: var(--blue);
 }
 .toggle.on span {
