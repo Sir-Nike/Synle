@@ -39,5 +39,5 @@ The follow-up also exercised offline submission/retry without consuming attempts
 - Sound design was approved by the user on October 30, 2026.
 - Conduct human difficulty playtests; v2 rarity has been calibrated during the agent playtest, but subjective familiarity still varies.
 - Verify individual editorial dictionary references and broaden regional expressions as needed.
-- Hosted PostgreSQL adapter and actual Render deployment require user-provisioned infrastructure and have not been exercised against a live remote database.
-- Check schedule dates before presentation; no daily prompts are scheduled after November 2, 2026.
+- The hosted PostgreSQL account/history flow was subsequently verified on October 31; see TEST-RESULTS.md.
+- The schedule was extended through December 1, 2026 using reviewed words in rotating combinations.

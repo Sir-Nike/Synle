@@ -35,4 +35,4 @@ Appearance-specific browser checks passed: Device follows emulated dark/light ch
 
 ## Remaining limits
 
-Human playtesting is still needed to judge difficulty. Sound design was approved by the user on October 30, 2026. The bank is finite; not every valid synonym or regional expression is covered. Remote PostgreSQL and actual hosting are not provisioned or tested by this pass. The daily schedule still ends November 2, 2026.
+Human playtesting is still needed to judge difficulty. Sound design was approved by the user on October 30, 2026. The bank is finite; not every valid synonym or regional expression is covered. This earlier playtest did not cover hosting. Subsequent production account/history verification is recorded in TEST-RESULTS.md. The schedule now runs through December 1, 2026, reusing reviewed words.

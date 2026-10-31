@@ -1,6 +1,6 @@
 # Accessibility and testing assessment
 
-Synle targets WCAG 2.2 Level AA. Automated results are evidence of the tested states, not a claim of full WCAG conformance. The implementation and verification below were completed locally on October 31, 2026; the public deployment has not yet been updated.
+Synle targets WCAG 2.2 Level AA. Automated results are evidence of the tested states, not a claim of full WCAG conformance. The implementation and verification below were completed locally on October 31, 2026; the update is now live on Render. The automated accessibility measurements below describe the local build.
 
 ## Implemented support
 

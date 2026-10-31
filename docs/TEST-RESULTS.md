@@ -1,6 +1,6 @@
 # Local verification results
 
-Verified October 31, 2026 against the current local production build. This update is not deployed to Render.
+Verified October 31, 2026 against the current local production build. The update is live on Render at https://synle.onrender.com.
 
 - TypeScript/build: passed (also run by the production browser suite).
 - Unit and real HTTP API tests: **23 passed, zero failures/skips**.
@@ -27,7 +27,7 @@ The real API tests exercise schema/length validation, tampered signed progress, 
 
 Browser tests cover demo gameplay, duplicate aliases, correction, answer reporting, early-end cancellation/confirmation, results URLs, refresh/restore, back navigation, offline input preservation, history round breakdowns, expired sessions, sign-in page and popup access rules, mobile overflow, skip navigation, dialog focus and saved appearance. Seeded sessions and mocked history are isolated fixtures, not real provider logins.
 
-The user separately completed Google sign-in on localhost and returned to /history?auth=success. Inspection confirmed a local user and active sessions. No real user's daily challenge was consumed by automation. Full PostgreSQL deployment verification, a dedicated screen-reader review and wider browser/device testing remain outstanding.
+The user separately completed Google sign-in on localhost and returned to /history?auth=success. Inspection confirmed a local user and active sessions. No real user's daily challenge was consumed by automation. Production Google sign-in and PostgreSQL-backed history were verified: the user completed the daily game, and its 675/900 total (200, 275, 200 by round) survived refresh and a logout/fresh sign-in. History was protected after logout. A spoken screen-reader review, native browser zoom and physical-device testing remain outstanding.
 
 ## Reproduce
 
